@@ -9,6 +9,6 @@ const root = ReactDOM.createRoot(el);
 
 root.render(
   <ContextProvider>
-    <App />
+    <App basename={process.env.PUBLIC_URL} />
   </ContextProvider>
 );
