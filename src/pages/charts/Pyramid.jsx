@@ -49,8 +49,9 @@ const Pyramid = () => {
               emptyPointSettings={{ mode: "Drop", line: "red" }}
               dataLabel={{
                 visible: true,
-                position: "inside",
-                name: "text"
+                position: "Outside",
+                name: "text",
+                connectorStyle: { length: "20px" }
               }}
             />
           </AccumulationSeriesCollectionDirective>
